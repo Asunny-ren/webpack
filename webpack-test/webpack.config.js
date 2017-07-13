@@ -22,10 +22,10 @@ module.exports = {
 		// 在打包形成的文件头加入
 		new webpack.BannerPlugin('This file is created by rjd'),
 		// 自动生成index.html文件
-    new htmlWebpackPlugin({
-        filename: 'index.html',
-        template: "index.html"
-    })
+	    new htmlWebpackPlugin({
+	        filename: 'index.html',
+	        template: "index.html"
+	    })
 	],
 	// resolve: {fallback: path.join(__dirname, 'node_modules')},
 	// resolveLoader: {fallback: path.join(__dirname, 'node_modules')}
